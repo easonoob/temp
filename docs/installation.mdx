@@ -1,0 +1,29 @@
+---
+sidebar_position: 1
+---
+
+# Installation Guide
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '10px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+**Choose a package:**
+
+<Highlight color="#25c2a0">Install for Windows</Highlight> <br /><br />
+
+<Highlight color="#1877F2">Install for Linux</Highlight> <br /><br />
+
+Follow the instructions to install the WebUI 😊
